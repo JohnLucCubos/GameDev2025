@@ -11,7 +11,9 @@ namespace player.controls
             _userControls = new UserControls();
             _userControls.Enable();
 
-            _movement = this.gameObject.GetComponent<IMovement>();
+            this.gameObject.TryGetComponent(out IMovement _imovement);
+
+            if(_imovement != null) _movement = _imovement;
         }
 
         void Start()
