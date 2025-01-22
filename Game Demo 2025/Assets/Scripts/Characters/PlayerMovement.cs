@@ -18,7 +18,6 @@ namespace player.controls
 
         public void Move(Vector2 direction)
         {
-            Debug.Log($"going towards {direction}");
             getDirection = direction;
 
             var _finalSpeed = _speed * _bonusSpeed;

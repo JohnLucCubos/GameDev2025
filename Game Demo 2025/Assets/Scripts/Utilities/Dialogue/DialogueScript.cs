@@ -1,6 +1,6 @@
 using UnityEngine;
 // fix to acomodate for new Dialogue system
-[CreateAssetMenu(fileName = "DialogueScript", menuName = "DialogueScript", order = 0)]
+[CreateAssetMenu(fileName = "Script", menuName = "Dialogue/Script", order = 0)]
 public class DialogueScript : ScriptableObject 
 {
     public Dialogue[] dialogue;
