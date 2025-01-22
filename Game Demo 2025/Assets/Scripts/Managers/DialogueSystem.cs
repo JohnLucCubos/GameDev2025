@@ -17,7 +17,7 @@ namespace MyUnity.Utilities
         private Queue<Dialogue> _dialogue = new();
 
         public int getCount { get { return _dialogue.Count; } }
-        public bool isSceneEnding { get { return _dialogue.Count == 0 ? true : false; } }
+        public bool isSceneEnding { get { return _dialogue.Count == 0; } }
 
 
         void Awake() => StartCoroutine(LateStart());
