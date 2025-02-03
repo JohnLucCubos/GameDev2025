@@ -15,7 +15,7 @@ namespace player.controls
         public float bonusSpeed { get => _bonusSpeed; set { _bonusSpeed = value; } }
 
         private void Awake() => _rb2d = gameObject.GetComponent<Rigidbody2D>();
-
+        
         public void Move(Vector2 direction)
         {
             getDirection = direction;

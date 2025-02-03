@@ -6,6 +6,7 @@ TagManager:
   tags:
   - AudioManager
   - DialogueManager
+  - GameManager
   layers:
   - Default
   - TransparentFX
